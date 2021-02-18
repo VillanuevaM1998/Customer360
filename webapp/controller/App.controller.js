@@ -1,5 +1,5 @@
 sap.ui.define([
-	"com/delaware/vlnm/trac201919/controller/BaseController"
+	"com/delaware/vlnm/trac2019/controller/BaseController"
 ], function (BaseController) {
 	"use strict";
 

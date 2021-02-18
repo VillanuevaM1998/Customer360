@@ -85,11 +85,17 @@
 				"viewPath": "com.delaware.vlnm.trac2019.view",
 				"controlId": "idAppControl"
 			},
-			"routes": [
-			
-			],
+			"routes": [{
+				"name" : "Master", 
+				"pattern" : "", 
+				"target" : "Master"
+			}],
 			"targets": {
-				
+				"Master" :{
+					"viewType" : "XML",
+					"viewName": "Master",
+					"controlAggregation": "beginColumnPages"
+				}
 			}
 		}
 	}
